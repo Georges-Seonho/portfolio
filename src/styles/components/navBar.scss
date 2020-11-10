@@ -1,13 +1,13 @@
 .main-nav {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.952);
     display: flex;
     align-items: center;
     padding: 0px 48px;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 700;
+    width: 100vw;
+    z-index: 10;
   }
   
   .main-nav .nav-list {
@@ -35,7 +35,8 @@
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .main-nav {
-      padding: 0px 40px;
+      padding: 0px 30px;
+      height: 12vh;
       flex-direction: column;
       justify-content: center;
     }
@@ -43,7 +44,7 @@
     .logo {
         cursor: pointer;
         letter-spacing: -1px;
-        margin: 10px 0px;
+        margin: 5px 0px;
     }
 
     .main-nav .nav-list {
@@ -52,4 +53,4 @@
         width: 100%;
       }
     
-}
+  }
