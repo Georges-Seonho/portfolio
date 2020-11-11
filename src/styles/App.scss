@@ -1,1 +1,11 @@
+// edit bulma variables here
+$primary: rgb(255, 153, 0);
+$grey-darker: rgb(1, 0, 84);
+$grey-light: rgb(1, 0, 84);
 
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/icon.sass";
+@import "../../node_modules/bulma/sass/helpers/color.sass";
+@import "../../node_modules/bulma/sass/elements/image.sass";
+@import "../../node_modules/bulma/sass/elements/tag.sass";
