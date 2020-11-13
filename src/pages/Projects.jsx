@@ -1,10 +1,38 @@
-import React from 'react'
+import React from 'react';
+import Title from '../components/tools/Title';
+import ProjectsList from '../components/projects/ProjectsList';
+import Footer from '../components/Footer';
+
+const projects = [
+    {
+        id: 1,
+        img: 'https://images.unsplash.com/photo-1604176354204-9268737828e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80',
+        name: 'chiic.fr',
+        description: 'An app to promote clothes recycling and help designers find the materials they need for their projects.',
+        technos: ['Javascript','HTML','CSS']
+    },
+    {
+        id: 2,
+        img: 'https://images.unsplash.com/photo-1563014217-df8aea007374?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80',
+        name: 'coffee_log',
+        description: 'An app to help barista and coffee lovers track their experiments and get useful insights about their consumption.',
+        technos: ['HBS','Express','MongoDB','ChartJS']
+    },
+    {
+        id: 3,
+        img: 'https://images.unsplash.com/photo-1578318974720-9d0eea26957d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1081&q=80',
+        name: 'Mr_Ms_President',
+        description: 'A simple management game with one rule: accept or reject propositions and keep everyone happy and budjet afloat! Good luck.',
+        technos: ['Full MERN stack', 'Amazon S3', 'Bulma', 'MapboxGL']
+    }
+];
 
 const Projects = () => {
     return (
-        <div className="work-in-progress">
-            <iframe src="https://giphy.com/embed/cMF3Fa3ZnLs8jk4xM4" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/memecandy-cMF3Fa3ZnLs8jk4xM4">via GIPHY</a></p>
-            <h1>Nothing her yet ! Sorry!</h1>
+        <div className="main">
+            <Title name={'My Projects'}/> 
+            <ProjectsList projects={projects}/>
+            <Footer /> 
         </div>
     )
 }
