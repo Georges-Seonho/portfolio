@@ -24,15 +24,17 @@ const ProjectPage = (props) => {
                   ]}
                   team={[
                     {
-                      name: "lisa Poncet",
+                      img: "http://www.lisaponcet.com/lisaponcet.png",
+                      name: "Lisa Poncet",
                       link: "http://www.lisaponcet.com/",
                     },
                     {
-                      name: "Me!",
+                      img: "https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg",
+                      name: "François Vieux",
                       link: "https://www.linkedin.com/in/fran%C3%A7ois-g-vieux/",
                     },
                       ]}
-                  role="front-end"
+                  role="full stack - back end"
                   time="8 days"
                   link="http://www.chiic.fr"
                 />
@@ -46,15 +48,17 @@ const ProjectPage = (props) => {
                   tags={["HBS", "MongoDB", "ExpressJS", "NodeJS", "ChartJs", "AJAX"]}
                   team={[
                     {
+                      img: "http://www.lisaponcet.com/lisaponcet.png",
                       name: "lisa Poncet",
                       link: "http://www.lisaponcet.com/",
                     },
                     {
-                      name: "Me!",
+                      img: "https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg",
+                      name: "François Vieux",
                       link: "https://www.linkedin.com/in/fran%C3%A7ois-g-vieux/",
                     },
                       ]}
-                  role="full stack"
+                  role="full stack - back end"
                   time="5 days"
                   link="https://coffeeapp-lf.herokuapp.com/"
                 />
@@ -70,7 +74,8 @@ const ProjectPage = (props) => {
                   tags={["Javascript", "HTML", "CSS", "DOM Manipulations"]}
                   team={[
                     {
-                      name: "Me!",
+                      img: "https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg",
+                      name: "François Vieux",
                       link: "https://www.linkedin.com/in/fran%C3%A7ois-g-vieux/",
                     },
                       ]}

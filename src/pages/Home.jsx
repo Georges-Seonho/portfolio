@@ -9,7 +9,7 @@ const Home = (props) => {
             <div className="home-container">
                 <h1> 🔥 Hello, World! 🔥 </h1>
                 <p> Personal portfolio and blog by <a className="orange" href="https://www.linkedin.com/in/fran%C3%A7ois-g-vieux/">François Vieux</a></p>
-                <img className="profile blur" src="./PROFIL.jpg" alt="profile me"/>
+                <img className="profile blur" src="https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg" alt="profile me"/>
                 <div className="tags">
                     <span className="tag is-primary is-light">Javascript</span>
                     <span className="tag is-primary is-light">ElectronJs</span>
@@ -21,7 +21,7 @@ const Home = (props) => {
 
                  <div className="social-links">
                     <a
-                        href="https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg"
+                        href="https://www.linkedin.com/in/fran%C3%A7ois-g-vieux/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

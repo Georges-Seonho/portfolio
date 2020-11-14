@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Footer';
+import { Link }from 'react-router-dom';
 
 const Project = (props) => {
     return (
@@ -7,13 +8,12 @@ const Project = (props) => {
         <div className="project-page main">
           <div className="project-header">
             <h1 className="main-color"><span className="orange">_</span>{props.name}<span className="orange">_</span></h1>
-            <p>{props.shortDesc}</p>
           </div>
+          <p>{props.shortDesc}</p>
             {props.image && props.image.map(e => (
                 <img src={e} alt="project-screenshot" />
             ))}
           
-          <div className="project-tech-details">
             <div className="technologies">
               <p>
                 <b> Technologies :</b> 
@@ -26,38 +26,39 @@ const Project = (props) => {
                 ))}
               </div>
             </div>
-            <div className="team">
+            <div >
               <p>
-                <b>
-                  <i className="fas fa-users"></i> Team:
-                </b>
+                <b>Team:</b>
                 <br/>
+                <div className="team">
                 {props.team && props.team.map(e => (
-                  <span>
+                  <span className="infos">
+                    <img className="profil-pic" src={e.img} alt={e.name}/>
                     <a href={e.link}>{e.name}</a>
                     <br/>
                   </span>
                 ))}
+                </div>
               </p>
             </div>
-            <div className="my-role">
+            <div>
               <p>
                 <b>
-                  <i className="far fa-dot-circle"></i> My role:
-                </b>{" "}
+                  My role:
+                </b>
+                <br/>
                 {props.role}
               </p>
             </div>
-            <div className="timing">
+            <div>
               <p>
                 <b>
-                  {" "}
                   <i class="far fa-clock"></i> Time:
                 </b>
+                <br/>
                   {props.time}
               </p>
             </div>
-          </div>
           <div className="project-long-description">
             <p className="has-text-grey">{props.longDesc}</p>
           </div>
@@ -68,9 +69,9 @@ const Project = (props) => {
               </button>
             </a>
             <br/>
-            <a className="orange" href='' target="_blank" rel="noopener noreferrer">
+            <Link className="orange" to='/projects'>
               Back to projects
-            </a>
+            </Link>
           </div>
         </div>
         <Footer />
