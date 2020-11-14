@@ -21,7 +21,7 @@ const Home = (props) => {
 
                  <div className="social-links">
                     <a
-                        href="https://www.linkedin.com/in/fran%C3%A7ois-g-vieux/"
+                        href="https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

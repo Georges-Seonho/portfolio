@@ -9,7 +9,7 @@ const projects = [
         img: 'https://images.unsplash.com/photo-1604176354204-9268737828e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80',
         name: 'chiic.fr',
         description: 'An app to promote clothes recycling and help designers find the materials they need for their projects.',
-        technos: ['Javascript','HTML','CSS']
+        technos: ['Full MERN stack', 'Amazon S3', 'Bulma', 'MapboxGL']
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const projects = [
         img: 'https://images.unsplash.com/photo-1578318974720-9d0eea26957d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1081&q=80',
         name: 'Mr_Ms_President',
         description: 'A simple management game with one rule: accept or reject propositions and keep everyone happy and budjet afloat! Good luck.',
-        technos: ['Full MERN stack', 'Amazon S3', 'Bulma', 'MapboxGL']
+        technos: ['Javascript','HTML','CSS']
     }
 ];
 
