@@ -1,0 +1,49 @@
+.column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: floor($number: 2);
+    height: 80vh;
+}
+
+.profile-about-right {
+    border-radius: 1900px 0  0  1900px;
+    object-fit: cover;
+    object-position: 0 100%;
+    width: 250px;
+    height: 500px;
+}
+
+.profile-about-left {
+    border-radius: 0 1900px 1900px 0;
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 250px;
+    height: 500px;
+}
+
+.about-container {
+    margin: auto;
+    height: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+.about-container .big-text {
+    font-size: 1.5rem;
+}
+
+#mail:hover { 
+    border-color: rgb(1, 0, 84);
+    color: rgb(1, 0, 84);
+}
+
+
+.about-container .description {
+    font-size: 1.6rem;
+}

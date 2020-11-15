@@ -1,10 +1,8 @@
 .home-container {
     margin: auto;
-    max-height: 100%;
     width: 90vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -17,14 +15,29 @@
     font-size: 1.7rem;
 }
 
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-links span {
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+
+.home-container .tag {
+    font-size: 1rem;
+}
+
 .home-container > p:first-of-type {
     font-size: 1.3rem;
 }
 
 .profile {
     border-radius: 50%;
-    width: 30rem;
-    margin: 30px;
+    width: 26.3rem;
+    margin: 23px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -5,6 +5,7 @@
 
 @import "./pages/home.scss";
 @import "./pages/Projects.scss";
+@import "./pages/About.scss";
 
 html {
   font-size: 10px;
@@ -21,7 +22,7 @@ body {
 }
 
 .main{
-  margin: 10vh 3vw;
+  margin: 10vh 3vw 0;
 }
 
 .title {
