@@ -24,7 +24,7 @@ const ProjectPage = (props) => {
                   ]}
                   team={[
                     {
-                      img: "http://www.lisaponcet.com/lisaponcet.png",
+                      img: "https://res.cloudinary.com/dnk7fvken/image/upload/v1605516921/portfolio/lisaponcet_vqlq79.png",
                       name: "Lisa Poncet",
                       link: "http://www.lisaponcet.com/",
                     },
@@ -48,7 +48,7 @@ const ProjectPage = (props) => {
                   tags={["HBS", "MongoDB", "ExpressJS", "NodeJS", "ChartJs", "AJAX"]}
                   team={[
                     {
-                      img: "http://www.lisaponcet.com/lisaponcet.png",
+                      img: "https://res.cloudinary.com/dnk7fvken/image/upload/v1605516921/portfolio/lisaponcet_vqlq79.png",
                       name: "lisa Poncet",
                       link: "http://www.lisaponcet.com/",
                     },
@@ -70,7 +70,7 @@ const ProjectPage = (props) => {
                          'https://res.cloudinary.com/dnk7fvken/image/upload/v1605353807/portfolio/Mr_pc_neecnt.png',
                          'https://res.cloudinary.com/dnk7fvken/image/upload/v1605353801/portfolio/Mr_tablette_mupdq9.png',
                          'https://res.cloudinary.com/dnk7fvken/image/upload/v1605353797/portfolio/Mr_Phone_dyalyd.png']}
-                  shortDesc="A simple but fully responsive management game with one rule: accept or reject propositions and keep everyone happy and budjet afloat!"
+                  shortDesc="A simple but fully responsive management game with one rule: accept or reject propositions and keep everyone happy and budget afloat!"
                   tags={["Javascript", "HTML", "CSS", "DOM Manipulations"]}
                   team={[
                     {
