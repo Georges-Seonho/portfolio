@@ -40,8 +40,9 @@ const Home = (props) => {
                     </a>
                 </div>
                 <div className="tags">
+                    <span className="tag is-primary is-light">Python</span>
+                    <span className="tag is-primary is-light">Django</span>
                     <span className="tag is-primary is-light">Javascript</span>
-                    <span className="tag is-primary is-light">ElectronJs</span>
                     <span className="tag is-primary is-light">ReactJS</span>
                     <span className="tag is-primary is-light">NodeJS</span>
                     <span className="tag is-primary is-light">MongoDB</span>

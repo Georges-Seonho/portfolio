@@ -28,7 +28,7 @@ const About = () => {
             
             </a>
 
-            <a href="/Francois Vieux_CV.pdf" download="CV_Francois_Vieux"><span className="button big-text is-light is-small">Check out my resume</span></a>   
+            <a href="/Francois_Vieux_CV.pdf" download="CV_Francois_Vieux"><span className="button big-text is-light is-small">Check out my resume</span></a>   
             </div>
             <img className="profile-about-left" src="https://res.cloudinary.com/dnk7fvken/image/upload/v1605353794/portfolio/PROFIL_tk1kff.jpg" alt="profile me"/>
             <Footer /> 
