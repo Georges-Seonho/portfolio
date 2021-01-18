@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = props => {
     return (
         <div className='footer'>
-           11_2020 © François Vieux __ Merry Christmas and happy NEW YEAR! 🥳 
+           01_2021 © François Vieux __ Happy NEW YEAR, best wishes for 2021! 🥳 
         </div>
     )
 }

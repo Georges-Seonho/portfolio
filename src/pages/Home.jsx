@@ -28,7 +28,7 @@ const Home = (props) => {
                         <i className="fab fa-lg fa-github"></i>
                         </span>
                     </a>
-                    <a href="mailto:admin@francoisvieux.com.com">
+                    <a href="mailto:admin@francoisvieux.com">
                         <span className="icon is-medium">
                             <i className="fas fa-lg fa-envelope"></i>
                         </span>
@@ -53,7 +53,7 @@ const Home = (props) => {
                 <br/>
                 People describe me as open minded, reliable, spontaneous, and proactive!
                 <br/>
-                As a <strong>full-stack</strong> or <strong>back-end developer</strong>, I develop innovative solutions while maximizing clients' satisfaction.</p>
+                As a <strong> Technical Account Manager </strong> or <strong> Project Manager </strong>, I help developing innovative solutions while maximizing clients' satisfaction.</p>
                 <br/>
                 <Link className="orange" to="/about"><h3> More 🥳 here! </h3></Link>
             </div>
